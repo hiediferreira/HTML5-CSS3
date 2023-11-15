@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6.. 12.700;1,6..12.500 & display=swap');
+
+* {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --corfundo: #FF77A0;
+    --cor2: #FF2A6B;
+    --cor3: #CC2255;
+    --cor4: #7F1535;
+}
+
+body {
+    background-color:var(--corfundo);
+}
+
+header {
+    height: 60px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--corfundo), var(--cor3));
+    color: white;
+    padding-top: 30px;
+}
+
+nav {
+    height: 30px;
+    padding: 10px;
+    background-color: var(--cor3);
+}
+
+nav a {
+    color: white;
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--cor4);
+}
+
+main {
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+main h1 {
+    padding: 10px 0px 10px 30px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+.subtitulo {
+    padding: 0px 0px 0px 30px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    font-style: normal;
+}
+
+footer {
+    height: 30px;
+    background-color: var(--cor3);
+    text-align: right;
+    padding-right: 10px;
+}
+
+footer p {
+    color: white;
+    padding: 5px;
+    font-style: italic;
+}
