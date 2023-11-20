@@ -1,4 +1,4 @@
 # HTML5-CSS3
- Curso de HTML5 e CSS3 do CursoemVideo.
+ Desafios desenvolvidos durante as aulas do Curso de HTML5 e CSS3 da plataforma CursoemVideo, ministrada pelo Professor Gustavo Guanabara.
 
- Estou aprendendo a desenvolver sites.
+ Estou aprendendo a desenvolver sites!
