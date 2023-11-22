@@ -17,6 +17,9 @@
 
 body {
     background-color:var(--corfundo);
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
 }
 
 header {
@@ -45,9 +48,6 @@ nav a:hover {
 }
 
 main {
-    min-width: 400px;
-    max-width: 800px;
-    margin: auto;
     background-color: white;
 }
 
